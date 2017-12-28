@@ -82,7 +82,8 @@ const {
 } = styles;
 
 const CoinCard = ({ symbol, coin_name, price_usd, percent_change_24h, percent_change_7d }) => {
-     
+ 
+    
     return (
         <View style={container}>
 
